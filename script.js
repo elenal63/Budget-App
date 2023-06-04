@@ -9,7 +9,7 @@ const balanceValue = document.getElementById("balance-amount");
 const list = document.getElementById("list");
 let tempAmount = 0;
 
-//Set Budget Part
+//Set Budget 
 totalAmountButton.addEventListener("click", () => {
     tempAmount = totalAmount.value;
     amount.innerHTML = tempAmount;
