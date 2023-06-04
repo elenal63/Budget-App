@@ -4,6 +4,7 @@
         <meta name = "viewport" content = "width=device-width, initial-scale=1.0" />
         <title>Monthly Budget</title>
 
+        <!--Links to icons, fonts, and css stylesheet-->
         <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Pompiere&display=swap" rel="stylesheet" />
         <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
         <link rel = "stylesheet" href = "style.css" />
@@ -25,8 +26,9 @@
                         <h3>Expenses</h3>
                         <input type = "text" class = "product-title" id = "product-title" placeholder = "Enter Name of Item" />
                         <input type = "number" id = "user-amount" placeholder = "Enter Cost of Item" />
+                        <!--Dropdown Category-->
                         <div class="dropdown">
-                            <button onclick="myFunction()" class="dropbtn">Category</button>
+                            <button onclick="myFunction()" class="dropbtn" id = "dropdown-category">Category</button>
                             <div id="myDropdown" class="dropdown-content">
                               <a href="#">Needs</a>
                               <a href="#">Wants</a>
